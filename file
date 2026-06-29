@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kritika Shop - Product Details</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="showProductDetails(); updateCartCount()">
+
+    <!-- Navbar -->
+
+    <nav class="navbar">
+
+        <h2>Kritika Shop</h2>
+
+        <div>
+
+            <a href="index.html">Home</a>
+
+            <a href="cart.html">
+                Cart (<span id="cartCount">0</span>)
+            </a>
+
+        </div>
+
+    </nav>
+
+
+    <!-- Back Button -->
+
+    <a href="index.html" class="back">
+        ← Back to Products
+    </a>
+
+
+    <!-- Loading -->
+
+    <h2 id="loading" style="text-align:center;">
+        Loading Product...
+    </h2>
+
+
+    <!-- Product Details -->
+
+    <div id="productDetails" class="detail-box">
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
