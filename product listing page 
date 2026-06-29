@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kritika Shop</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="loadProducts(); updateCartCount()">
+
+    <!-- Navbar -->
+
+    <nav class="navbar">
+
+        <h2>Kritika Shop</h2>
+
+        <div>
+
+            <a href="index.html">Home</a>
+
+            <a href="cart.html">
+                Cart (<span id="cartCount">0</span>)
+            </a>
+
+        </div>
+
+    </nav>
+
+
+    <!-- Heading -->
+
+    <section class="heading">
+
+        <h1>Product Listing Page</h1>
+
+        <p>
+            Simple E-Commerce Website using HTML, CSS & JavaScript
+        </p>
+
+    </section>
+
+
+
+    <!-- Loading -->
+
+    <h2 id="loading">
+        Loading Products...
+    </h2>
+
+
+
+    <!-- Product Container -->
+
+    <div id="productContainer" class="products">
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
